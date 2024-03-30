@@ -1,0 +1,19 @@
+.ProductList {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.ProductList h2 {
+  padding: 0 1rem;
+}

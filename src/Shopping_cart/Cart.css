@@ -1,0 +1,29 @@
+.Cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 35%;
+  margin: 0 auto;
+  background-color: #ecf0f1;
+  padding: 0rem 0.5rem;
+  border-radius: 0.6rem;
+}
+
+.Cart h2 {
+  padding: 0 1rem;
+}
+
+.Cart .hr {
+  width: 100%;
+  border: 2px dashed #2c3e50;
+}
+.Cart .row {
+  margin-top: 1rem;
+  display: flex;
+
+  width: 80%;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+}
